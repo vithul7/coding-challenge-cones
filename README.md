@@ -8,7 +8,7 @@ Methodology:
 - converting the image to HSV from BGR
 - creating a mask, covering the orange color of the cones
       - binarized the iamge using the inrange function and the bitwise_and
-- now that the imgge is black and white, erode and dilate image
+- now that the image is black and white, erode and dilate image
 - blur the image using bilateral filer and gaussian blur to ready the image
 - apply canny after image has been optimized
 - find the contours of the new canny image
